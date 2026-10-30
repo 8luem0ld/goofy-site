@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "shows": [
+    {"id": "futurama", "title": "Футурама", "original": "Futurama", "year": "1999", "theme": "lilac", "art": "space", "genre": "Доставка в будущее", "description": ""}
+  ],
+  "episodes": [
+    {
+      "id": "futurama-s1e1", "showId": "futurama", "season": 1, "number": 1,
+      "title": "Космический пилот 3000", "original": "Space Pilot 3000", "description": "", "airDate": "", "duration": 0, "locked": false,
+      "sources": [
+        {"id": "local-futurama-s1e1", "voice": "Моя озвучка", "language": "Русский", "translation": "Неизвестен", "path": "media/futurama/S01E01.mp4", "fileName": "S01E01.mp4", "size": 0, "lastModified": 0, "syncGroup": "", "checkedAt": "", "status": "unknown"}
+      ]
+    }
+  ]
+}
