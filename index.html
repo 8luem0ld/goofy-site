@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="GOOFY — домашняя полка мультсериалов. Каталог, коллекция и просмотр ваших видео без интернета.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'none'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>GOOFY — мультфильмы дома</title>
+<link rel="stylesheet" href="styles.css"><script defer src="seed.js"></script><script defer src="core.js"></script><script defer src="player.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a href="#main" class="skip">К содержимому</a>
+<header class="header"><a href="#home" class="brand" aria-label="GOOFY — главная"><span class="brand-mark" aria-hidden="true">G<span>!</span></span><span>goofy<span class="brand-dot">.</span></span></a><nav aria-label="Основная навигация"><a href="#home" data-nav="home">Главная</a><a href="#catalog" data-nav="catalog">Каталог</a><a href="#collection" data-nav="collection">Моя полка</a></nav><div class="header-actions"><span class="offline"><i></i> Всё на компьютере</span><a href="#events" class="icon-button" aria-label="Уведомления" title="Уведомления">♧<span id="event-count" class="counter" hidden></span></a><a href="#settings" class="icon-button" aria-label="Настройки" title="Настройки">⚙</a></div></header>
+<main id="main" tabindex="-1"></main>
+<footer class="footer"><a href="#home" class="footer-logo">goofy.</a><span>Хорошие мультфильмы. Ваш маленький кинотеатр.</span><a href="#admin">Управление библиотекой ↗</a><a href="README.md">Инструкция</a></footer>
+<div id="toast" role="status" class="toast" hidden></div><dialog id="dialog"><div id="dialog-content"></div></dialog>
+<input id="import-json" type="file" accept=".json,application/json" hidden><input id="folder-input" type="file" webkitdirectory multiple hidden><input id="video-input" type="file" accept="video/*,.mkv,.m4v" hidden><input id="subtitle-input" type="file" accept=".vtt,text/vtt" hidden>
+<noscript>Для локального видеоплеера включите JavaScript в браузере. Подключение к интернету не требуется.</noscript>
+</body></html>
